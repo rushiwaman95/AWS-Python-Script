@@ -2,10 +2,10 @@ import boto3
 
 # Input Values
 budget_name = 'test-budget'
-account_id = '661798055669'  # Replace with your AWS Account ID
+account_id = '123456678'  # Replace with your AWS Account ID
 notification_threshold = 80  # Set your custom threshold percentage here
 budget_limit_amount = '100.0'  # Convert the budget limit amount to a string
-email_addresses = ['rushikesh.waman@flentas.com', 'rushiwaman95@gmail.com']  # List of email addresses
+email_addresses = ['test@gmail.com', 'test2@gmail.com']  # List of email addresses
 
 # Initialize the AWS SNS client
 sns_client = boto3.client('sns')
